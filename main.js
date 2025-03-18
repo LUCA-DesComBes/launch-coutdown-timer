@@ -5,10 +5,10 @@ const dayTimer = document.getElementById("day");
 const containerDiv = document.querySelector(".container");
 const audio = document.querySelector("audio");
 
-let second = 10;
-let minute = 0;
-let hour = 0;
-let day = 0;
+let second = 59;
+let minute = 59;
+let hour = 23;
+let day = 10;
 
 let timer = setInterval(() => {
 	second--;
